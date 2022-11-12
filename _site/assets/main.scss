@@ -1,0 +1,49 @@
+
+/** Basic styling */
+body {
+    font-family: 'Gambetta', serif;
+    color: #fff;
+    background-color: #10100E;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/** Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: 'General Sans', sans-serif
+}
+.display-font {
+    font-family: 'General Sans', sans-serif
+}
+/** Site header */
+.site-header {
+    border-top: 5px solid #424242;
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 55.95px;
+    position: relative;
+}
+
+.site-title {
+    line-height: 54px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    font-size: 4rem;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700 !important;
+    text-align: center;
+    padding: 2rem 0;
+}

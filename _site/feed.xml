@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-12T09:19:23+01:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Test Post</title><link href="http://localhost:4000/2022/11/11/test.html" rel="alternate" type="text/html" title="Test Post" /><published>2022-11-11T00:00:00+01:00</published><updated>2022-11-11T00:00:00+01:00</updated><id>http://localhost:4000/2022/11/11/test</id><content type="html" xml:base="http://localhost:4000/2022/11/11/test.html"><![CDATA[<p>testtt</p>
+
+<pre><code> # Path: _posts/_posts/2022-11-10-color.md
+ # Compare this snippet from index.md:
+ # ---
+ # title: Welcome to my blog
+ # ---
+ #
+ #
+---
+</code></pre>]]></content><author><name></name></author><summary type="html"><![CDATA[testtt]]></summary></entry><entry><title type="html">Color Post</title><link href="http://localhost:4000/2022/11/10/color.html" rel="alternate" type="text/html" title="Color Post" /><published>2022-11-10T00:00:00+01:00</published><updated>2022-11-10T00:00:00+01:00</updated><id>http://localhost:4000/2022/11/10/color</id><content type="html" xml:base="http://localhost:4000/2022/11/10/color.html"><![CDATA[<p>welcome to my blog</p>
+
+<pre><code> # Path: _posts/_posts/2022-11-10-color.md
+ # Compare this snippet from index.md:
+ # ---
+ # title: Welcome to my blog
+ # ---
+ #
+ #
+---
+</code></pre>]]></content><author><name></name></author><summary type="html"><![CDATA[welcome to my blog]]></summary></entry></feed>

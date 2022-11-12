@@ -1,0 +1,43 @@
+---
+title: Welcome to my blog
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- import css -->
+<link rel="stylesheet" href="/assets/main.css">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@1&f[]=gambetta@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <h1 class="site-title">{{ page.title }}</h1>
+
+<div class="text-7xl display-font text-red-500 pl-6 ">Latest posts</div>
+
+<div class="posts ml-6 border-l border-white">
+
+  <!-- get all posts jekyll -->
+
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% for post in posts %}
+
+    <li class="py-6 border-b border-white list-none display-font pl-4">
+      <!-- add post date eg. 01.04.21 -->
+      <div class="text-gray-500 text-sm opacity-700 text-lg">{{ post.date | date: "%d.%m.%y" }}</div>
+      <a href="{{ post.url }}" class="text-6xl font-bold font-display">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</div>
+
+
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+</html>
+
+
